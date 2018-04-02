@@ -12,5 +12,9 @@ body {
 }
 
 .jumbotron {
-    background-color: rgb(6, 33, 53);
+    background-color: #adb9c2;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
 }
