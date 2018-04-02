@@ -1,15 +1,16 @@
 body {
-    /* background-color: #adb9c2;
-    background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png"); */
-    color: #72A0C1;
-
+    background-image: url("../images/clean-gray-paper.png");
+    background-color: #adb9c2;
 }
 
 .bttn {
-    margin-right: 10px
+    margin-right: 10px;
+}
+
+#pic {
+    margin-right: 5px;
 }
 
 .jumbotron {
-    background-color: #72A0C1;
+    background-color: rgb(6, 33, 53);
 }
-

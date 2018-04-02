@@ -12,17 +12,17 @@ function displayGIFinfo() {
         var results = response.data;
 
         for (var j = 0; j < results.length; j++) {
-            var gifDiv = $("<div class='item'>");
+            var gifDiv = $("<div id='gif'class='col-xs-6 col-sm-4 col-lg-4'>");
 
             var rating = results[j].rating;
 
             var p = $("<p>").text("Rating: " + rating);
 
-            var personImage = $("<img>");
-            personImage.attr("src", results[j].images.fixed_height.url);
+            var animalImg = $("<img>");
+            animalImg.attr("src", results[j].images.fixed_height.url);
 
             gifDiv.prepend(p);
-            gifDiv.prepend(personImage);
+            gifDiv.prepend(animalImg);
 
             $("#gifs-appear-here").prepend(gifDiv);
 
